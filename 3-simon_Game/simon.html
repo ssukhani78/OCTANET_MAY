@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="simon.css">
+</head>
+<body>
+    <h2>WELCOME TO SIMON's GAME..!!</h2>
+    <div class="dashboard">Press Any Key to start the game !!</div>
+
+
+    <div class="game">
+        <div class="section1">
+            <button id="box1" class="square first">1</button>
+            <button id="box2" class="square second">2</button>
+        </div>
+
+        <div class="section2">
+            <button id="box3" class="square third">3</button>
+            <button id="box4" class="square fourth">4</button>
+        </div>
+    </div>
+
+    <Marquee class="simon">SIMON PLAYS GAME</Marquee>
+
+    <table class="scoreboarddd" border="2px solid black">
+
+        <tr>
+            <th>Top-5 High Score</th>
+        </tr>
+        
+        <tbody>
+            <tr>
+                <td id="Fst_play"></td>
+            </tr>
+            <tr>
+                <td id="S_play"></td>
+            </tr>
+            <tr>
+                <td id="Th_play"></td>
+            </tr>
+            <tr>
+                <td id="F_play"></td>
+            </tr>
+            <tr>
+                <td id="Fi_play"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="simon.js"></script>
+</body>
+</html>
